@@ -2,4 +2,7 @@
     <string name="app_name">Basic_UI_and_Event</string>
     <string name="reminder">Please enter your name</string>
     <string name="done">Complete</string>
+    <string name="to">To</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
 </resources>

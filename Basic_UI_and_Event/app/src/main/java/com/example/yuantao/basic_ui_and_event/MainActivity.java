@@ -24,8 +24,10 @@ public class MainActivity extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                Intent openNewActivity = new Intent(getApplicationContext(),LinearActivity.class);
+
                 Intent broswerIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://www.google.com.au"));
-                startActivity(broswerIntent);
+                startActivity(openNewActivity);
             }
         });
     }
